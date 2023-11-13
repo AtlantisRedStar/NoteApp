@@ -1,5 +1,5 @@
-package com.example.lab4;
-
+package com.example.myapplication;
+import com.example.myapplication.R;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
