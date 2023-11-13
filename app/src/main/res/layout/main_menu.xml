@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Note Actions"
+        android:showAsAction="ifRoom"
+        android:enabled="false">
+        <menu>
+            <item
+                android:id="@+id/menu_add_note"
+                android:title="Add Note"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/menu_delete_note"
+                android:title="Delete Note"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+</menu>
